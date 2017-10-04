@@ -1,10 +1,9 @@
 package producerconsumer;
- 
 public class ProducerConsumer
 {
     public static void main(String[] args) throws InterruptedException
     {
-        System.out.println("Trial 1: Normal Operation ----------------- ");
+        //System.out.println("Trial 1: Normal Operation ----------------- ");
         ProduceAndConsume pc1 = new ProduceAndConsume();
         Thread thread1 = new Thread(() -> {
             try
